@@ -1,0 +1,16 @@
+package org.jsp.E_commerce.Dao;
+
+import org.jsp.E_commerce.model.Merchant;
+import org.jsp.E_commerce.repositor.MerchantRespositor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class MerchantDao {
+	@Autowired
+    private MerchantRespositor merchantRespositor;
+	public Merchant save_merchant(Merchant merchant) {
+		return merchantRespositor.save(merchant);
+	}
+    
+}

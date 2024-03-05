@@ -1,0 +1,5 @@
+package org.jsp.E_commerce.model;
+
+public class Merchant {
+
+}

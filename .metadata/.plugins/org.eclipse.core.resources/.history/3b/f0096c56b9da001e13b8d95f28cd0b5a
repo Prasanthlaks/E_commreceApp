@@ -1,0 +1,28 @@
+package org.jsp.E_commerce.Controller;
+
+import org.jsp.E_commerce.dto.ResponseStructure;
+import org.jsp.E_commerce.model.Merchant;
+import org.jsp.E_commerce.service.MerchantService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(value="/merchants")
+public class MerchantController {
+	@Autowired
+	private MerchantService merchantService;
+	
+	@PostMapping
+	@ResponseStatus(value=HttpStatus.CREATED)
+	public ResponseStructure<Merchant> saveM(@RequestBody Merchant m) {
+		return merchantService.save(m);
+	}
+	public ResponseStructure<Merchant> updateM(@RequestBody Merchant m){
+		return merchantService.updateMerchant(m);
+	}
+}
