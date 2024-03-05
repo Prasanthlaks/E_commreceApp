@@ -129,3 +129,6 @@
 2024-03-05 13:05:12,844 [Worker-81: Launching E_commerce - ECommerceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-03-05 13:05:12,854 [Worker-81: Launching E_commerce - ECommerceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-03-05 13:05:12,862 [Worker-81: Launching E_commerce - ECommerceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dell\Desktop\E_comm\E_commerce\src\test\resources
+2024-03-05 13:55:33,515 [Worker-81: Launching E_commerce - ECommerceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-05 13:55:33,552 [Worker-81: Launching E_commerce - ECommerceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-05 13:55:33,558 [Worker-81: Launching E_commerce - ECommerceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\dell\Desktop\E_comm\E_commerce\src\test\resources
