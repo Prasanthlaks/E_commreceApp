@@ -20,6 +20,7 @@ public class MerchantService {
    public ResponseStructure<Merchant> save(Merchant merchant) {
 	   ResponseStructure<Merchant> str=new ResponseStructure();
 	   str.setMessage("merchant saved successfully");
+	   str.setMessage("hello sucessfully");
 	   str.setData(dao.save_merchant(merchant));
 	   str.setStatusCode(HttpStatus.CREATED.value());
 	   return str;
